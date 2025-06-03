@@ -2,6 +2,18 @@ import streamlit as st
 
 st.set_page_config(page_title="mentomoney", layout="centered")
 
+st.markdown("""
+<style>
+    .reportview-container .markdown-text-container {
+        text-align: right;
+        direction: rtl;
+    }
+    .stTextInput > div > div > input {
+        text-align: right;
+    }
+</style>
+""", unsafe_allow_html=True)
+
 st.title("💰 mentomoney – המנטור החכם שלך להתנהלות כלכלית")
 
 st.markdown("""
